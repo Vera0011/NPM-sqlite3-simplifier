@@ -1,6 +1,6 @@
 # SQLite Simplifier for NodeJS
 
-## ¿How it works?
+# ¿How it works?
 
 This package was made to simplify the SQLite functions (although, their documentation is horrible, so I'm here to help you)
 
@@ -10,7 +10,8 @@ This package was made to simplify the SQLite functions (although, their document
 - If you liked the package, leave a star in the repository, please!
 - Tha package is made to have different options, that we will see down here
 
-Ok, let's get started.
+## Starting
+
 **1-** First of all, you need to install the package, like this:
 ```
 npm i @veraa/npm-sqlite3-simplifier
