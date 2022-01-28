@@ -6,11 +6,11 @@ let sqlite3;
 let db;
 
 // LOAD DATABASE
-exports.databaseLoad = (databaseName = "database.db") => {
+exports.databaseLoad = (path = __dirname, databaseName = "database.db") => {
     if (isCypherEnabled) {
         sqlite3 = require('@journeyapps/sqlcipher').verbose();
 
-        db = new sqlite3.Database(databaseName, (err) => {
+        db = new sqlite3.Database(`${path}/${databaseName}`, (err) => {
             if (err) {
                 console.log(err.message);
                 return 0;
