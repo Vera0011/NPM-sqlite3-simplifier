@@ -1,0 +1,37 @@
+{
+    "name": "@veraa/npm-sqlite3-simplifier",
+    "version": "3.0.0",
+    "description": "Some functions to simplify the use of SQLite3",
+    "main": "main.js",
+    "keywords": [
+        "sqlite",
+        "SQLITE",
+        "sqlite3",
+        "SQLITE3",
+        "DATABASE",
+        "database",
+        "db",
+        "DB"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Vera0011/NPM-sqlite3-simplifier.git"
+    },
+    "author": "Vera0011",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Vera0011/NPM-sqlite3-simplifier/issues"
+    },
+    "homepage": "https://github.com/Vera0011/NPM-sqlite3-simplifier#readme",
+    "options": {
+        "isCypherEnabled": true,
+        "key": "guygkdbksa7769770012jkbkjbas"
+    },
+    "dependencies": {
+        "@journeyapps/sqlcipher": "^5.3.1",
+        "sqlite3": "^5.0.2"
+    }
+}
