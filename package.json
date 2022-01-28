@@ -1,6 +1,6 @@
 {
     "name": "@veraa/npm-sqlite3-simplifier",
-    "version": "3.0.0",
+    "version": "3.0.1",
     "description": "Some functions to simplify the use of SQLite3",
     "main": "main.js",
     "keywords": [
